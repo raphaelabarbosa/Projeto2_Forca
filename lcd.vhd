@@ -206,7 +206,7 @@ begin
 
 				when SetAddress1 => 
 				RS <= '0'; RW <= '0';
-				DB <= "10000101";      --COMANDO PARA POSICIONAR O CURSOR NA LINHA 2 COLUNA 6
+				DB <= "10000101";      --COMANDO PARA POSICIONAR O CURSOR NA LINHA 1 COLUNA 6
 				nx_state <= WriteData2; 
 				
 				when WriteData2 => 
